@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+/* font-family: 'IBM Plex Mono', monospace;
+font-family: 'Open Sans', sans-serif; */
+
+:root{
+    --clr-1st: #0a9396;
+    --clr-2nd: #cfbaf0;
+    --clr-3rd: #ae2012;
+    --clr-4th: #e63946;
+    --clr-5th: #1d3557;
+}
+
+
+
+
+
+
+
+
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
