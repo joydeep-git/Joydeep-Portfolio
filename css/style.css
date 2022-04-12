@@ -6,24 +6,100 @@
 font-family: 'Open Sans', sans-serif; */
 
 :root{
+
+
     --clr-1st: #0a9396;
     --clr-2nd: #cfbaf0;
     --clr-3rd: #ae2012;
     --clr-4th: #e63946;
     --clr-5th: #1d3557;
+
+    --font-open-sans: font-family: 'Open Sans', sans-serif;
+    --font-plex-mono: font-family: 'IBM Plex Mono', monospace;
 }
-
-
-
-
-
-
-
-
-
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
 ul{
     list-style-type: none;
 }
 a{
     text-decoration: none;
 }
+body{
+    background-color: #161a1d;
+    background-image: url(/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header img{
+    margin: 5rem;
+    height: 4rem;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #e63946;
+    font-family: var(--font-open-sans);
+}
+.container{
+    margin-top: 3rem;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.container h2{
+    font-size: 2rem;
+}
+.container span{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.link{
+    margin-top: 10rem;
+    display: grid;
+    place-items: center;
+}
+
+.link ul{
+    display: flex;
+    gap: 2rem;
+}
+.link ul li a{
+    color: #e5383b;
+    font-size: 2rem;
+    border: 1px solid var(--clr-1st);
+    border-radius: 10px;
+    background-color: var(--clr-5th);
+    padding: 2rem 3rem;
+}
+.link ul li a:hover{
+    background: #1d3557; 
+    border: none;
+    margin: 1px;
+    cursor: pointer;
+}
+
+/* LANDING PAGE'S CSS COMPLETED */
+
+
+/* CONTACT PAGE'S CSS STARTS */
+
+
