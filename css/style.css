@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 
 /* font-family: 'IBM Plex Mono', monospace;
@@ -16,6 +18,8 @@ font-family: 'Open Sans', sans-serif; */
 
     --font-open-sans: font-family: 'Open Sans', sans-serif;
     --font-plex-mono: font-family: 'IBM Plex Mono', monospace;
+
+    --font-hand-written: font-family: 'Pacifico', cursive;
 }
 *,
 *::before,
@@ -35,71 +39,50 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: #161a1d;
-    background-image: url(/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+    background-color: var(--clr-5th);;
 }
 header{
+    padding: 0;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: space-around;
 }
 header img{
-    margin: 5rem;
-    height: 4rem;
+    height: 3rem;
 }
-
-main{
-    text-align: center;
+header ul{
     display: flex;
-    flex-direction: column;
-    color: #e63946;
-    font-family: var(--font-open-sans);
+    align-items: center;
+}
+header ul li a{
+    color: var(--clr-4th);
+    margin: 0 1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: left;
+}
+header ul li a:hover{
+    cursor: pointer;
+    border: 2px solid var(--clr-1st);
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin: 0 0.39rem;
+    font-family: var(--font-hand-written) ;
 }
 .container{
-    margin-top: 3rem;
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 4rem;
 }
 .container h2{
+    color: var(--clr-4th);
     font-size: 2rem;
 }
 .container span{
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: left;
+    color: var(--clr-2nd);
+    font-size: 1.5rem;
 }
-
-.link{
-    margin-top: 10rem;
-    display: grid;
-    place-items: center;
-}
-
-.link ul{
-    display: flex;
-    gap: 2rem;
-}
-.link ul li a{
-    color: #e5383b;
-    font-size: 2rem;
-    border: 1px solid var(--clr-1st);
-    border-radius: 10px;
-    background-color: var(--clr-5th);
-    padding: 2rem 3rem;
-}
-.link ul li a:hover{
-    background: #1d3557; 
-    border: none;
-    margin: 1px;
-    cursor: pointer;
-}
-
-/* LANDING PAGE'S CSS COMPLETED */
-
-
-/* CONTACT PAGE'S CSS STARTS */
-
-
