@@ -93,15 +93,39 @@ main div h1{
     justify-content: space-around;
     flex-direction: row;
     padding: 2rem;
+    margin-bottom: 2rem;
 }
 
-
-.works img{
-height: 25rem;
-width: auto;
+.works div{
+    background-color: #f1faee;
+    border: 2px solid var(--clr-5th);
+    border-radius: 1.5rem;
 }
-
-.work2{
-    background-color: var(--clr-6th);
+.works div h3{
+    font-size: 2rem;
+    color: var(--clr-6th);
     padding: 2rem;
+}
+.works div section{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+.works div section button{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: var(--clr-1st);
+}
+.works div section button a:hover{
+    color: var(--clr-4th);
+}
+.works div section button a{
+    color: #e6e8e6;
 }
