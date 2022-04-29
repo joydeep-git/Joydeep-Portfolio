@@ -110,6 +110,7 @@ main div h1{
     font-size: 2rem;
     color: var(--clr-6th);
     padding: 2rem;
+    text-align: center;
 }
 .works div section{
     display: flex;
