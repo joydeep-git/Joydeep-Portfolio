@@ -4,7 +4,54 @@
 font-family: 'Prompt', sans-serif;
 font-family: 'Satisfy', cursive;
 font-family: 'Space Mono', monospace; */
-
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
-    
+    --orange:#f85a3e;
+    --blue:#1D3557;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+html{
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+}
+body{
+    background-color: var(--blue);
+}
+header{
+    width: 100%;
+    background-color: var(--orange);
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul li a{
+    font-size: 1.5rem;
+    color: #000;
+}
+header ul li a:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+
+
+main h3{
+    font-size: 2rem;
+    color: #fff;
+}
+main h3 span{
+    color: var(--orange);
 }
