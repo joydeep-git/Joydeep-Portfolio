@@ -8,11 +8,49 @@
 }
 html{
     font-size: 16px;
-    font-family: var(--font-1);
+}
+a{
+    text-decoration: none;
 }
 :root{
     --orange:#f85a3e;
     --blue:#1D3557;
     --font-1: 'Satisfy', cursive;
     --font-2: 'Space Mono', monospace;
+}
+body{
+    background-color: var(--blue);
+}
+header{
+    height: 3rem;
+    background-color: var(--orange);
+}
+
+header h1{
+    font-family: var(--font-1);
+    color: #fff;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem;
+    display: flexbox;
+}
+section .div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin: 3rem;
+    background-color: aquamarine;
+    padding: 2rem;
 }
