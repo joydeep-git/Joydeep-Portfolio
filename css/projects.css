@@ -66,6 +66,9 @@ section .div{
 .btn{
     display: flex;
     flex-direction: row;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn button{
     padding: 0.5rem 1.5rem;
@@ -74,6 +77,9 @@ section .div{
     border: 1px solid aquamarine;
     border-radius: 20px;
     margin: 0;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 .btn button:hover{
     background: linear-gradient(to right, rgb(252, 67, 227), rgb(153, 0, 255));
