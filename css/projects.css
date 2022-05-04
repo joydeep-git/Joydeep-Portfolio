@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Prompt:wght@400;500;600;700;800&family=Satisfy&family=Space+Mono&display=swap');
+
+
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: var(--font-1);
+}
+:root{
+    --orange:#f85a3e;
+    --blue:#1D3557;
+    --font-1: 'Satisfy', cursive;
+    --font-2: 'Space Mono', monospace;
+}
