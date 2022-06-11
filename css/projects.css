@@ -19,7 +19,7 @@ a{
     --font-2: 'Space Mono', monospace;
 }
 body{
-    background-color: var(--blue);
+    background-color: rgb(156, 156, 156);
 }
 header{
     height: 3rem;
@@ -53,9 +53,9 @@ section .div{
     border: 1px solid var(--blue);
     border-radius: 25px;
     gap: 3rem;
-    color: #000;
+    color: rgb(255, 255, 255);
     margin: 1rem;
-    background-color: aquamarine;
+    background-color: var(--blue);
     padding: 2rem;
     width: 24rem;
 }
@@ -66,32 +66,34 @@ section .div{
 .btn{
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
+    gap: 1rem;
 }
 .btn button{
-    padding: 0.5rem 1.5rem;
-    width: 8.7rem;
+    padding: 0.5rem 0;
     background-color: rgb(255, 255, 255);
     border: 1px solid aquamarine;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0;
-
+    width: 5rem;
     margin-left: auto;
     margin-right: auto;
 }
 .btn button:hover{
     background: linear-gradient(to right, rgb(252, 67, 227), rgb(153, 0, 255));
 transition: 0.8s;
+color: #fff;
+border: 1px solid var(--blue);
+}
+.btn button:hover a{
+    color: #fff;
 }
 .btn button a{
     font-size: 1rem;
     color: var(--orange);
     font-weight: 600;
-}
-.btn button a:hover{
-    color: #fff;
 }
 
 .div::after{
