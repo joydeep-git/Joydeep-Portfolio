@@ -93,3 +93,7 @@ transition: 0.8s;
 .btn button a:hover{
     color: #fff;
 }
+
+.div::after{
+    
+}
